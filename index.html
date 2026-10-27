@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Stellar Solution Diabetic Supply — product inquiries for pharmacies and healthcare businesses in the United States.">
+  <title>Stellar Solution Diabetic Supply | Pharmacy Supply Inquiries</title>
+  <style>
+    :root{--navy:#102a43;--blue:#176b87;--teal:#20a4a8;--ink:#243b53;--muted:#627d98;--pale:#f1f7fa;--white:#fff;--line:#d9e5ec;--gold:#f0b429}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);line-height:1.6;background:#fff}
+    a{color:inherit} .wrap{width:min(1120px,92%);margin:auto}
+    .topbar{background:var(--navy);color:#eaf4f8;font-size:.86rem;padding:9px 0}
+    .topbar .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+    header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:15px 0}
+    .brand{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:0}
+    .logo{height:45px;width:45px;border-radius:13px;background:linear-gradient(145deg,var(--blue),var(--teal));display:grid;place-items:center;color:white;font-size:1.25rem;font-weight:800;flex-shrink:0}
+    .brand strong{display:block;color:var(--navy);font-size:1rem;line-height:1.25}
+    .brand small{display:block;color:var(--muted);font-size:.76rem;margin-top:3px}
+    nav{display:flex;align-items:center;gap:22px;font-size:.92rem}
+    nav a{text-decoration:none;color:var(--ink)} nav a:hover{color:var(--teal)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;background:var(--teal);color:#fff!important;text-decoration:none;border:0;border-radius:9px;padding:12px 18px;font-weight:700;cursor:pointer;transition:.2s}
+    .btn:hover{background:#16888c;transform:translateY(-1px)} .btn.outline{background:transparent;border:1px solid #a9dce0;color:var(--navy)!important}
+    .hero{background:radial-gradient(circle at 82% 15%,rgba(32,164,168,.2),transparent 28%),linear-gradient(125deg,#f2f8fb 0%,#fff 62%);padding:78px 0 70px;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:48px}
+    .eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--blue);font-size:.8rem;font-weight:800;letter-spacing:.11em;text-transform:uppercase}
+    .eyebrow:before{content:"";width:25px;height:2px;background:var(--teal)}
+    h1{font-size:clamp(2.35rem,5vw,4.1rem);line-height:1.08;letter-spacing:-.045em;color:var(--navy);margin:18px 0}
+    h1 span{color:var(--blue)} .lead{font-size:1.12rem;color:#526d82;max-width:630px}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:27px}
+    .note{font-size:.83rem;color:var(--muted);margin-top:18px}
+    .visual{background:var(--navy);border-radius:24px;padding:28px;color:#fff;min-height:340px;position:relative;box-shadow:0 24px 55px rgba(16,42,67,.16)}
+    .visual:after{content:"";position:absolute;width:190px;height:190px;border-radius:50%;border:1px solid rgba(255,255,255,.14);right:-55px;top:-65px}
+    .visual-label{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:#9ee6e3;font-weight:800}
+    .visual h2{font-size:1.7rem;line-height:1.2;margin:10px 0 20px;max-width:310px}
+    .mini-list{display:grid;gap:12px}
+    .mini{display:flex;align-items:center;gap:12px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.1);padding:12px;border-radius:12px}
+    .mini-icon{width:38px;height:38px;border-radius:10px;background:rgba(32,164,168,.2);display:grid;place-items:center;color:#9ee6e3;font-size:1.15rem}
+    .mini strong{display:block;font-size:.94rem}.mini small{display:block;color:#c3d5e1;font-size:.8rem}
+    section{padding:76px 0}.section-head{max-width:700px;margin-bottom:32px}.kicker{color:var(--teal);font-weight:800;text-transform:uppercase;letter-spacing:.1em;font-size:.77rem}
+    h2.section-title{font-size:clamp(1.8rem,3vw,2.65rem);line-height:1.15;letter-spacing:-.035em;color:var(--navy);margin:9px 0 13px}
+    .section-head p{color:var(--muted);margin:0}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{border:1px solid var(--line);border-radius:16px;padding:24px;background:#fff;box-shadow:0 6px 20px rgba(16,42,67,.035)}
+    .card-icon{width:48px;height:48px;display:grid;place-items:center;border-radius:13px;background:#e7f6f5;color:var(--blue);font-size:1.4rem;margin-bottom:18px}
+    .card h3{color:var(--navy);font-size:1.1rem;margin:0 0 8px}.card p{color:var(--muted);font-size:.94rem;margin:0}
+    .card ul{padding-left:19px;margin:12px 0 0;color:var(--muted);font-size:.9rem}
+    .band{background:var(--pale)}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+    .checklist{display:grid;gap:14px;margin-top:24px}
+    .check{display:flex;gap:12px}.check b{display:block;color:var(--navy)}.check p{margin:3px 0 0;color:var(--muted);font-size:.92rem}
+    .checkmark{height:27px;width:27px;flex-shrink:0;border-radius:50%;display:grid;place-items:center;background:#dff5f2;color:#087f83;font-weight:900}
+    .info-panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px}
+    .info-panel h3{margin:0 0 12px;color:var(--navy)} .info-panel p{color:var(--muted);font-size:.94rem}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .step{padding:23px;border-top:3px solid var(--teal);background:#fff;border-radius:0 0 14px 14px;box-shadow:0 6px 20px rgba(16,42,67,.04)}
+    .step-num{font-size:.8rem;color:var(--teal);font-weight:900;letter-spacing:.1em}.step h3{color:var(--navy);margin:8px 0}.step p{color:var(--muted);font-size:.93rem;margin:0}
+    .contact{background:linear-gradient(135deg,#102a43,#174e68);color:white}
+    .contact .section-title{color:white!important}.contact .section-head p{color:#c3d5e1}
+    .contact-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:35px;align-items:start}
+    .contact-details{display:grid;gap:16px;margin-top:25px}.contact-item{display:flex;gap:12px;align-items:flex-start}
+    .contact-item .ci{width:38px;height:38px;display:grid;place-items:center;background:rgba(255,255,255,.1);border-radius:10px;flex-shrink:0}
+    .contact-item small{display:block;color:#b9d1df}.contact-item a{text-decoration:none;overflow-wrap:anywhere}
+    form{background:#fff;color:var(--ink);border-radius:18px;padding:26px;display:grid;gap:14px}
+    .form-row{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+    label{display:block;font-size:.85rem;font-weight:700;color:var(--navy);margin-bottom:5px}
+    input,select,textarea{width:100%;padding:12px;border:1px solid #cbd8e0;border-radius:8px;font:inherit;color:var(--ink);background:#fff}
+    textarea{min-height:105px;resize:vertical} input:focus,select:focus,textarea:focus{outline:2px solid #8edbd9;border-color:var(--teal)}
+    .form-note{font-size:.78rem;color:var(--muted);margin:0}
+    .legal{background:#f8fbfc;border-top:1px solid var(--line);padding:24px 0;font-size:.8rem;color:#627d98}
+    .legal strong{color:#486581}.footer{background:#0b2033;color:#bfd0dc;padding:25px 0;font-size:.85rem}
+    .footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.footer a{color:#fff}
+    .status{font-size:.82rem;padding:12px;border-radius:8px;background:#eef8fa;color:#28566a}
+    @media(max-width:850px){nav{gap:12px}nav a:not(.btn){display:none}.hero-grid,.two-col,.contact-grid{grid-template-columns:1fr}.hero{padding:55px 0}.visual{min-height:0}.cards{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:1fr}.contact-grid{gap:25px}}
+    @media(max-width:560px){.cards{grid-template-columns:1fr}.form-row{grid-template-columns:1fr}.nav{padding:12px 0}.brand strong{font-size:.9rem}.brand small{font-size:.7rem}.hero-actions .btn{width:100%}section{padding:55px 0}.visual{padding:22px}.topbar .wrap{font-size:.76rem}}
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap"><span>Wholesale product inquiries for U.S. pharmacies</span><span>Call us: <a href="tel:+17732418166">(773) 241-8166</a></span></div>
+  </div>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#home" aria-label="Stellar Solution Diabetic Supply home">
+        <span class="logo">S+</span><span><strong>Stellar Solution</strong><small>Diabetic Supply</small></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#products">Products</a><a href="#about">About</a><a href="#process">How It Works</a><a href="#contact" class="btn">Request Information</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">Pharmacy supply inquiries</div>
+          <h1>Supporting pharmacies with <span>diabetes care supplies.</span></h1>
+          <p class="lead">Stellar Solution Diabetic Supply welcomes product availability and wholesale inquiry requests from pharmacies and healthcare businesses in the United States.</p>
+          <div class="hero-actions"><a class="btn" href="#contact">Request Product Information&nbsp; →</a><a class="btn outline" href="#products">Explore Product Categories</a></div>
+          <p class="note">Product availability, eligibility, and ordering terms must be confirmed directly with our team.</p>
+        </div>
+        <div class="visual">
+          <div class="visual-label">For pharmacy teams</div>
+          <h2>A straightforward way to inquire about supply needs.</h2>
+          <div class="mini-list">
+            <div class="mini"><span class="mini-icon">⌁</span><span><strong>Diabetes care products</strong><small>CGM systems and related supplies</small></span></div>
+            <div class="mini"><span class="mini-icon">▤</span><span><strong>Product inquiries</strong><small>Ask about availability and pricing</small></span></div>
+            <div class="mini"><span class="mini-icon">↗</span><span><strong>Business-to-business contact</strong><small>For pharmacies and purchasing teams</small></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products">
+      <div class="wrap">
+        <div class="section-head"><div class="kicker">Product categories</div><h2 class="section-title">Explore our diabetes supply categories</h2><p>Contact us to confirm current inventory, product details, expiration dates, applicable terms, and availability. Not every product or brand is necessarily in stock.</p></div>
+        <div class="cards">
+          <article class="card"><div class="card-icon">◉</div><h3>Continuous Glucose Monitoring</h3><p>Inquiries for continuous glucose monitoring (CGM) products and related accessories.</p><ul><li>Dexcom products</li><li>FreeStyle Libre products</li><li>Other CGM systems</li></ul></article>
+          <article class="card"><div class="card-icon">⌁</div><h3>Glucose Testing Supplies</h3><p>Diabetes testing essentials for pharmacy supply inquiries.</p><ul><li>Blood glucose test strips</li><li>Lancets</li><li>Other diabetes testing supplies</li></ul></article>
+          <article class="card"><div class="card-icon">＋</div><h3>Insulin Pump Supplies</h3><p>Ask our team about insulin pumps and related diabetes-care supplies.</p><ul><li>Insulin pump products</li><li>Related supplies, where available</li></ul></article>
+          <article class="card"><div class="card-icon">▦</div><h3>Other Diabetes Supplies</h3><p>Have a specific product in mind? Send us the product name and details for review.</p><ul><li>Additional diabetes-care products</li><li>Product-specific availability checks</li></ul></article>
+          <article class="card"><div class="card-icon">✚</div><h3>Additional Pharmacy Products</h3><p>For other product categories beyond diabetes supplies, contact us to ask whether your requested item can be considered.</p><ul><li>Availability is not guaranteed</li><li>All inquiries are subject to confirmation</li></ul></article>
+          <article class="card"><div class="card-icon">☷</div><h3>Wholesale Inquiries</h3><p>Share your pharmacy's needs with our team so we can review the requested items.</p><ul><li>Product and quantity requests</li><li>Wholesale pricing inquiries</li><li>Business contact follow-up</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="about">
+      <div class="wrap two-col">
+        <div>
+          <div class="kicker">About the company</div><h2 class="section-title">A point of contact for pharmacy supply inquiries.</h2>
+          <p>Stellar Solution Diabetic Supply provides a business contact point for pharmacies and purchasing managers seeking information about diabetes supply products. We encourage pharmacy teams to contact us directly to confirm product details and the requirements applicable to their order.</p>
+          <div class="checklist">
+            <div class="check"><span class="checkmark">✓</span><div><b>Product-specific communication</b><p>Tell us which products and quantities you are looking for.</p></div></div>
+            <div class="check"><span class="checkmark">✓</span><div><b>Availability confirmation</b><p>Request current inventory and relevant product details before ordering.</p></div></div>
+            <div class="check"><span class="checkmark">✓</span><div><b>Direct business contact</b><p>Use the contact details on this page to reach our team.</p></div></div>
+          </div>
+        </div>
+        <aside class="info-panel">
+          <h3>Pharmacy purchasing teams</h3>
+          <p>When making an inquiry, please include your pharmacy name, business contact details, the products you need, and approximate quantities. Our team can then review the request and respond with information that is available.</p>
+          <p><strong>Need supplier documentation?</strong><br>Contact us to discuss the company information and documentation available for review. Please verify all applicable licenses, registrations, and distribution requirements independently before placing an order.</p>
+          <a class="btn" href="#contact">Contact Our Team</a>
+        </aside>
+      </div>
+    </section>
+
+    <section id="process">
+      <div class="wrap">
+        <div class="section-head"><div class="kicker">How it works</div><h2 class="section-title">Start with a product inquiry</h2><p>Use these steps to help us understand what your pharmacy is looking for.</p></div>
+        <div class="steps">
+          <div class="step"><div class="step-num">STEP 01</div><h3>Send your request</h3><p>Share your pharmacy's contact information and the products and quantities you would like to inquire about.</p></div>
+          <div class="step"><div class="step-num">STEP 02</div><h3>Confirm the details</h3><p>Ask our team to confirm current availability, product identifiers, expiration information, pricing, and applicable terms.</p></div>
+          <div class="step"><div class="step-num">STEP 03</div><h3>Review before ordering</h3><p>Review the information and any required supplier documentation before deciding whether to proceed.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <div class="section-head"><div class="kicker">Contact us</div><h2 class="section-title">Request product information</h2><p>Pharmacies and purchasing managers can contact us about product availability and wholesale inquiries.</p></div>
+        <div class="contact-grid">
+          <div>
+            <h3>Stellar Solution Diabetic Supply</h3>
+            <p style="color:#c3d5e1">For product questions and pharmacy supply inquiries, please use the contact details below.</p>
+            <div class="contact-details">
+              <div class="contact-item"><span class="ci">✉</span><div><small>Email</small><a href="mailto:samatha.diabeticsources@gmail.com">samatha.diabeticsources@gmail.com</a></div></div>
+              <div class="contact-item"><span class="ci">☎</span><div><small>Phone</small><a href="tel:+17732418166">(773) 241-8166</a></div></div>
+              <div class="contact-item"><span class="ci">⌖</span><div><small>Address provided by company</small><span>19046 Bruce B. Downs Blvd.<br>Tampa, FL 33647<br>United States</span></div></div>
+            </div>
+            <p style="font-size:.82rem;color:#b9d1df;margin-top:24px">Please confirm the company details and documentation through your own due diligence before placing an order.</p>
+          </div>
+          <form id="inquiryForm">
+            <div class="form-row">
+              <div><label for="name">Your name *</label><input id="name" name="name" required autocomplete="name" placeholder="Purchasing manager name"></div>
+              <div><label for="pharmacy">Pharmacy / company *</label><input id="pharmacy" name="pharmacy" required autocomplete="organization" placeholder="Company name"></div>
+            </div>
+            <div class="form-row">
+              <div><label for="workemail">Business email *</label><input id="workemail" name="workemail" type="email" required autocomplete="email" placeholder="you@pharmacy.com"></div>
+              <div><label for="phone">Phone (optional)</label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="Business phone"></div>
+            </div>
+            <div><label for="category">Product category *</label><select id="category" name="category" required><option value="">Choose a category</option><option>Dexcom / CGM products</option><option>FreeStyle Libre</option><option>Test strips and lancets</option><option>Insulin pumps / related supplies</option><option>Other diabetes supplies</option><option>Other pharmacy product inquiry</option></select></div>
+            <div><label for="details">Products, quantities, or questions *</label><textarea id="details" name="details" required placeholder="Please list the products and quantities you would like to inquire about."></textarea></div>
+            <button class="btn" type="submit">Prepare Email Inquiry&nbsp; →</button>
+            <p class="form-note">This draft form opens your email application with the inquiry details filled in. It does not submit or store information on this website.</p>
+            <div id="formStatus" class="status" role="status" hidden></div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="legal">
+      <div class="wrap">
+        <strong>Important information</strong>
+        <p>This website is intended to provide general company and product inquiry information. Product availability, product details, pricing, order terms, and eligibility must be confirmed directly with the company. No claim of FDA approval, accreditation, licensure, or authorization is made by this website. Pharmacies should independently verify supplier credentials and all applicable federal and state requirements before ordering. Product names and trademarks belong to their respective owners; references are for identification purposes and do not imply endorsement or affiliation.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="wrap"><span>© <span id="year"></span> Stellar Solution Diabetic Supply</span><span>Pharmacy supply inquiries · <a href="mailto:samatha.diabeticsources@gmail.com">Contact us</a></span></div></footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('inquiryForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      const f = new FormData(this);
+      const subject = encodeURIComponent('Pharmacy Product Inquiry — ' + f.get('pharmacy'));
+      const body = encodeURIComponent(
+        'Hello Stellar Solution Diabetic Supply,\\n\\n' +
+        'Name: ' + f.get('name') + '\\n' +
+        'Pharmacy / Company: ' + f.get('pharmacy') + '\\n' +
+        'Business Email: ' + f.get('workemail') + '\\n' +
+        'Phone: ' + (f.get('phone') || 'Not provided') + '\\n' +
+        'Product Category: ' + f.get('category') + '\\n\\n' +
+        'Products / Quantities / Questions:\\n' + f.get('details') + '\\n\\nThank you.'
+      );
+      document.getElementById('formStatus').hidden = false;
+      document.getElementById('formStatus').textContent = 'Your email application should open with the inquiry prepared. Please review and send the email to complete your request.';
+      window.location.href = 'mailto:samatha.diabeticsources@gmail.com?subject=' + subject + '&body=' + body;
+    });
+  </script>
+</body>
+</html>
